@@ -1,0 +1,68 @@
+
+<html >
+  <head>
+    <title> SISTEMA WEB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SISTEMA WEB</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item" >
+                <a class="nav-link active" aria-current="page" href="#">Cadastrar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Consultar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div style='margin-left:33px; margin-right:7px;'>
+      <br>
+      <h4>Cadastar - Agendamento de Potencias Clientes</h4>
+      <p>
+        Sistema utilizado para agendamento de serviços
+      </p>
+
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputName1" class="form-label">Nome: </label>
+          <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+      </form>
+      <br>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Telefone</label>
+        <input type="telefone" class="form-control" id="exampleFormControlInput1" placeholder="(xx)xxxxx-xxxx">
+      </div>
+      <br>
+       <select class="form-select" aria-label="Default select example">
+        <option selected>Celular</option>
+        <option value="1">Telefone residencial</option>
+        <option value="2">Telefone trabalho</option>
+        <option value="3">Outros</option>
+      </select>
+       <br>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputName1" class="form-label">Data: </label>
+          <input type="date" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+      </form>
+       <br>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Observação :</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+      </div>
+    </div>
+  </body>
+</html>
